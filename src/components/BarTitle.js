@@ -6,7 +6,7 @@ export default function BarTitle() {
   return (
     <div className="container">
       <div className="titleContainer">
-        <Logo></Logo>
+        <Logo className="logo"></Logo>
         <LogoFull className="logoFull"></LogoFull>
       </div>
     </div>

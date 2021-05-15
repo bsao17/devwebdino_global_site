@@ -1,9 +1,13 @@
-import React from 'react'
+import React from "react";
+import BarTitle from '../components/BarTitle'
+import TopBanner from '../components/TopBanner'
 
 export default function Portfolio() {
-    return (
-        <div>
-            <h1>Portfolio</h1>
-        </div>
-    )
+  return (
+    <div>
+      <TopBanner />
+      <BarTitle />
+      {/* <BodyComponent></BodyComponent> */}
+    </div>
+  );
 }

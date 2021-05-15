@@ -1,0 +1,139 @@
+#bannerTop {
+    position: relative;
+    width: 100%;
+    margin: 0px;
+  }
+  #jingle {
+    position: absolute;
+    text-shadow: white 0 0 1px;
+    opacity: 0;
+    color: #B3C100;
+    font-size: 2vw;
+    animation: jingle 1s linear 8s forwards, opacityNull 5s linear 10s forwards;
+  }
+  #dwdLogo {
+    position: absolute;
+    width: 22vw;
+    opacity: 0;
+    animation: opacityFull 3s ease-in-out 14s forwards;
+  }
+  #imac {
+    position: absolute;
+    width: 10vw;
+    opacity: 0;
+    border-radius: 0 0 50% 0;
+    z-index: 999;
+    animation: imac 3s ease-out 5s forwards;
+  }
+  #iphone {
+    position: absolute;
+    width: 10vw;
+    opacity: 0;
+    border-radius: 50%;
+    animation: iphone 3s ease-out 4s forwards;
+  }
+  #ipad {
+    position: absolute;
+    width: 10vw;
+    opacity: 0;
+    border-radius: 50%;
+    animation: ipad 2s ease-in-out 4.5s forwards;
+  }
+  @keyframes iphone {
+    0% {
+      opacity: 0;
+      top: 0;
+      left: 30vw;
+    }
+    50% {
+      opacity: 1;
+      top: 19vw;
+      left: 30vw;
+    }
+    100% {
+      opacity: 0;
+      left: 0;
+      top: 11vw;
+    }
+  }
+  @keyframes ipad {
+    0% {
+      opacity: 0;
+      top: 0;
+      right: 5vw;
+    }
+    50% {
+      opacity: 1;
+      right: 5vw;
+      top: 17vw;
+    }
+    100% {
+      opacity: 0;
+      right: 0;
+      top: 19vw;
+    }
+  }
+  @keyframes imac {
+    0% {
+      opacity: 0;
+      top: 0;
+      left: 50%;
+      transform: scale(1);
+    }
+    50% {
+      opacity: 1;
+      left: 50%;
+      top: 10vw;
+      transform: scale(1);
+    }
+    75% {
+      opacity: 1;
+      top: 17vw;
+      left: 27vw;
+      transform: scale(1);
+    }
+    100% {
+      opacity: 1;
+      top: 9vw;
+      left: 27vw;
+      transform: scale(2.5);
+    }
+  }
+  @keyframes jingle {
+    from {
+      top: 5vw;
+      left: 20vw;
+    }
+    to {
+      opacity: 1;
+      top: 5vw;
+      left: 45vw;
+    }
+  }
+  @keyframes opacityNull {
+    0% {
+      opacity: 1;
+      top: 5vw;
+      left: 45vw;
+    }
+    100% {
+      opacity: 0;
+      top: 5vw;
+      left: 45vw;
+    }
+  }
+  @keyframes opacityFull{
+    0% {
+      opacity: 0;
+      top: 4vw;
+      left: 40vw;
+      transform: rotate(-10deg);
+    }
+    100% {
+      opacity: 1;
+      top: 2vw;
+      left: 56vw;
+      transform: rotate(0deg);
+    }
+  }
+  
