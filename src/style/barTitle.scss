@@ -1,0 +1,68 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+.container {
+  position: relative;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+  height: 9vw;
+  border-radius: 34px;
+  background: #258DC0;
+  animation: Shadow 5s ease-out forwards;
+  margin: auto;
+  margin-top: 10vH;
+}
+.titleContainer{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin: auto;
+}
+.logo {
+  overflow: visible;
+}
+.logoFull {
+  position: absolute;
+  top: 0.4vw;
+  bottom: 0;
+  overflow: visible;
+  animation: fullTitle 5s ease-in forwards;
+}
+
+@keyframes Shadow {
+  0%{
+    box-shadow: #258DC0 0 0 0;
+  }
+  50%{
+    box-shadow: #258DC0 0 0 0;
+  }
+  60%{
+    box-shadow: #258DC0 0 0 0;
+  }
+  85%{
+    box-shadow:  23px 23px 46px #1e749d,
+             -23px -23px 46px #2ca6e3;
+  }
+  100%{
+    box-shadow:  23px 23px 46px #1e749d,
+             -23px -23px 46px #2ca6e3;
+  }
+}
+
+@keyframes fullTitle{
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  100%{
+    opacity: 1;
+  }
+}
+
