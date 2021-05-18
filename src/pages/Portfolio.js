@@ -1,5 +1,6 @@
 import React from "react";
 import BarTitle from '../components/BarTitle'
+import BodyFolio from "../components/BodyFolio";
 import TopBanner from '../components/TopBanner'
 
 export default function Portfolio() {
@@ -7,7 +8,7 @@ export default function Portfolio() {
     <div>
       <TopBanner />
       <BarTitle />
-      {/* <BodyComponent></BodyComponent> */}
+      <BodyFolio/>
     </div>
   );
 }
