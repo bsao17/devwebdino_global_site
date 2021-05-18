@@ -4,7 +4,7 @@ import Tilt from "react-tilt";
 export default function BodyFolio() {
   return (
     <div className="wrapper">
-      <Tilt options={{ max: 25, scale: 1.3 }}>
+      <Tilt options={{ max: 25, scale: 1.1 }}>
         <div class="agency">
           <img
             src="https://res.cloudinary.com/bsao17/image/upload/v1621271218/devwebdino/agency_mo6swl.jpg"
@@ -19,7 +19,7 @@ export default function BodyFolio() {
         </div>
       </Tilt>
 
-      <Tilt options={{ max: 25, scale: 1.3 }}>
+      <Tilt options={{ max: 25, scale: 1.1 }}>
         <div class="bikeRenting">
           <img
             src="https://res.cloudinary.com/bsao17/image/upload/v1621271227/devwebdino/bikeRenting_e5x9n3.jpg"
@@ -34,7 +34,7 @@ export default function BodyFolio() {
         </div>
       </Tilt>
 
-      <Tilt options={{ max: 25, scale: 1.3 }}>
+      <Tilt options={{ max: 25, scale: 1.1 }}>
         <div class="forteroche">
           <img
             src="https://res.cloudinary.com/bsao17/image/upload/v1621271224/devwebdino/forteroche_kgo8ux.jpg"
@@ -49,7 +49,7 @@ export default function BodyFolio() {
         </div>
       </Tilt>
 
-      <Tilt options={{ max: 25, scale: 1.3 }}>
+      <Tilt options={{ max: 25, scale: 1.1 }}>
         <div class="ireki">
           <img
             src="https://res.cloudinary.com/bsao17/image/upload/v1621271223/devwebdino/ireki_tssz7m.jpg"
@@ -64,7 +64,7 @@ export default function BodyFolio() {
         </div>
       </Tilt>
 
-      <Tilt options={{ max: 25, scale: 1.3 }}>
+      <Tilt options={{ max: 25, scale: 1.1 }}>
         <div class="jmpm">
           <img
             src="https://res.cloudinary.com/bsao17/image/upload/v1621271218/devwebdino/jmpm_egbkof.jpg"

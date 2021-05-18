@@ -1,14 +1,18 @@
 import React from "react";
-import BarTitle from '../components/BarTitle'
+import BarTitle from "../components/BarTitle";
 import BodyFolio from "../components/BodyFolio";
-import TopBanner from '../components/TopBanner'
+import Navigation from "../components/Navigation";
+import FolioBanner from "../components/FolioBanner";
+import FolioFooter from "../components/FolioFooter";
 
 export default function Portfolio() {
   return (
-    <div>
-      <TopBanner />
+    <div className="folio">
+      <Navigation />
+      <FolioBanner />
       <BarTitle />
-      <BodyFolio/>
+      <BodyFolio />
+      <FolioFooter/>
     </div>
   );
 }

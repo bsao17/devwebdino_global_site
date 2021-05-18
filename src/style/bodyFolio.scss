@@ -1,58 +1,60 @@
 .wrapper {
+  width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
+  margin-top: 5vw;
   font-size: 1vw;
-  margin: 1vw;
+  overflow: hidden;
 }
 .agency {
-  width: 25vw;
+  width: 350px;
   border-radius: 20px;
   margin: 3vw;
   padding: 15px;
-  border: #B3DDF1 solid 2px;
+  border: #b3ddf1 solid 2px;
   background-color: #175979;
-  color: #B3DDF1;
+  color: #b3ddf1;
 }
 .bikeRenting {
-  width: 25vw;
+  width: 350px;
   border-radius: 20px;
   padding: 15px;
   margin: 3vw;
-  border: #B3DDF1 solid 2px;
+  border: #b3ddf1 solid 2px;
   background-color: #175979;
-  color: #B3DDF1;
+  color: #b3ddf1;
 }
 .forteroche {
-  width: 25vw;
+  width: 350px;
   border-radius: 20px;
   padding: 15px;
   margin: 3vw;
-  border: #B3DDF1 solid 2px;
+  border: #b3ddf1 solid 2px;
   background-color: #175979;
-  color: #B3DDF1;
+  color: #b3ddf1;
 }
 .ireki {
-  width: 25vw;
+  width: 350px;
   border-radius: 20px;
   padding: 15px;
   margin: 3vw;
-  border: #B3DDF1 solid 2px;
+  border: #b3ddf1 solid 2px;
   background-color: #175979;
-  color: #B3DDF1;
+  color: #b3ddf1;
 }
 .jmpm {
-  width: 25vw;
+  width: 350px;
   border-radius: 20px;
   padding: 15px;
   margin: 3vw;
-  border: #B3DDF1 solid 2px;
+  border: #b3ddf1 solid 2px;
   background-color: #175979;
-  color: #B3DDF1;
+  color: #b3ddf1;
 }
-img{
-    width: 10vw;
-    float: right;
-    border-radius: 15px;
+img {
+  width: 10vw;
+  float: right;
+  border-radius: 15px;
 }

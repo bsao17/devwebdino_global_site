@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 
-export default function TopBanner() {
+export default function FolioBanner() {
   const [img, setImg] = useState({
     imac: './assets/images/imac.png',
     iphone: './assets/images/iphone.png',
