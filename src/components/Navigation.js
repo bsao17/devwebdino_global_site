@@ -11,6 +11,7 @@ export default function Navigation() {
           <Nav className="mr-auto">
             <Nav.Link href="/" className="text-light">Accueil</Nav.Link>
             <Nav.Link href="/portfolio" className="text-light">Portfolio</Nav.Link>
+            <Nav.Link href="/price" className="text-light">Tarifs</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>
