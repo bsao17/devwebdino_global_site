@@ -88,5 +88,5 @@ window.addEventListener('DOMContentLoaded', ()=>{
         const wrapper = document.getElementById('wrapper');
         wrapper.scrollIntoView()
     }
-    setTimeout(scroll, 16000)
+    setTimeout(scroll, 14000)
 })
