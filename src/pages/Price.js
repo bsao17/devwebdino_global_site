@@ -13,7 +13,7 @@ const Price = () => {
                     <li>Installation CMS</li>
                     <li>Paramétrage SQL</li>
                     <li>Premier pas</li>
-                    <li className="grey"><a href="#" className="button">Sign Up</a></li>
+                    <li className="grey"><a href="#" className="button">Commande</a></li>
                 </ul>
 
                 <ul className="price w-25 mx-1">
@@ -23,17 +23,19 @@ const Price = () => {
                     <li>De 1 à 5 pages</li>
                     <li>Nom de domaine offert*</li>
                     <li>Déploiement du site</li>
-                    <li className="grey"><a href="#" className="button">Sign Up</a></li>
+                    <li className="grey"><a href="#" className="button">Commande</a></li>
                 </ul>
 
                 <ul className="price w-25 mx-1">
                     <li className="header bg-success">Formule Freelance <br/> site, app mobile, SPA</li>
-                    <li className="grey">350€ / jour</li>
-                    <li>10GB Storage</li>
-                    <li>10 Emails</li>
-                    <li>Nom de domaine offert*</li>
-                    <li>1GB Bandwidth</li>
-                    <li className="grey"><a href="#" className="button">Sign Up</a></li>
+                    <li className="grey">Sur devis</li>
+                    <li>Maquette, Logo, 3D ...</li>
+                    <li>Développement from scratch</li>
+                    <li>Application Mobile</li>
+                    <li>API</li>
+                    <li>React, Angular, Vue ...</li>
+                    <li>Symfony, Django</li>
+                    <li className="grey"><a href="#" className="button">Contact</a></li>
                 </ul>
             </div>
         </>
