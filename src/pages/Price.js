@@ -5,14 +5,21 @@ const Price = () => {
     return (
         <>
             <Navigation/>
-            <div className="columns w-100 d-flex flex-wrap justify-content-center align-items-center my-5">
+            <div className="card card-body w-75 m-auto">
+                <h2 className="text-center card-header mb-4">Tarifs et Prestations</h2>
+                <p className="text-center px-5">
+                    Ces tarifs sont affichés à titre indicatif, ils peuvent varier en fonction
+                    des attentes et des besoins des client, c'est pour cela qu'aucune commande ne peut-être effectuée
+                    directement sur le site, mais uniquement après contact et accord entre les parties concernées.</p>
+                </div>
+                <div className="columns w-100 d-flex flex-wrap justify-content-center align-items-center my-5">
                 <ul className="price w-25 mx-1">
                     <li className="header bg-dark">Base CMS <br/> (Wordpress, Prestashop etc...)</li>
                     <li className="grey">450€</li>
                     <li>Choix Hébergement</li>
                     <li>Installation CMS</li>
                     <li>Paramétrage SQL</li>
-                    <li>Premier pas</li>
+                    <li>Premiers pas</li>
                     <li className="grey"><a href="#" className="button">Commande</a></li>
                 </ul>
 
@@ -35,7 +42,7 @@ const Price = () => {
                     <li>API</li>
                     <li>React, Angular, Vue ...</li>
                     <li>Symfony, Django</li>
-                    <li className="grey"><a href="#" className="button">Contact</a></li>
+                    <li className="grey"><a href="#" className="button">Commande</a></li>
                 </ul>
             </div>
         </>
