@@ -8,11 +8,11 @@ const Price = () => {
             <div className="card card-body w-75 m-auto">
                 <h2 className="text-center card-header mb-4">Tarifs et Prestations</h2>
                 <p className="text-center px-5">
-                    Ces tarifs sont affichés à titre indicatif, ils peuvent varier en fonction
-                    des attentes et des besoins des client, c'est pour cela qu'aucune commande ne peut-être effectuée
-                    directement sur le site, mais uniquement après contact et accord entre les parties concernées.</p>
-                </div>
-                <div className="columns w-100 d-flex flex-wrap justify-content-center align-items-center my-5">
+                    Ces tarifs sont affichés à titre indicatif, ils peuvent varier en fonction des attentes et des
+                    besoins des clients, c'est pour cela qu'aucune commande ne peut être effectuée directement sur le
+                    site, mais uniquement après contact et accord entre les parties concernées.</p>
+            </div>
+            <div className="columns w-100 d-flex flex-wrap justify-content-center align-items-center my-5">
                 <ul className="price w-25 mx-1">
                     <li className="header bg-dark">Base CMS <br/> (Wordpress, Prestashop etc...)</li>
                     <li className="grey">450€</li>
