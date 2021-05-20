@@ -1,6 +1,6 @@
 import React from "react";
 import BarTitle from "../components/BarTitle";
-import BodyFolio from "../components/BodyFolio";
+import FolioBody from "../components/FolioBody";
 import Navigation from "../components/Navigation";
 import FolioBanner from "../components/FolioBanner";
 import FolioFooter from "../components/FolioFooter";
@@ -11,7 +11,7 @@ export default function Portfolio() {
       <Navigation />
       <FolioBanner />
       <BarTitle />
-      <BodyFolio />
+      <FolioBody />
       <FolioFooter/>
     </div>
   );
