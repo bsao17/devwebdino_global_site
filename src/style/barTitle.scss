@@ -13,9 +13,9 @@
   height: 9vw;
   border-radius: 34px;
   background: #258DC0;
-  animation: Shadow 5s ease-out forwards;
+  animation: Shadow 5s ease-out 16s forwards;
   margin: auto;
-  margin-top: 10vH;
+  margin-top: 10vw;
 }
 .titleContainer{
   width: 100%;
@@ -31,7 +31,7 @@
   top: 0.4vw;
   bottom: 0;
   overflow: visible;
-  animation: fullTitle 5s ease-in forwards;
+  animation: fullTitle 5s ease-in 16s forwards;
 }
 
 @keyframes Shadow {

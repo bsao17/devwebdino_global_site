@@ -1,6 +1,15 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 
 export default function FolioFooter(props) {
+
+  const[sound, setSound] = useState()
+
+  useEffect(()=>{
+    setTimeout(()=>{
+      setSound("assets/sounds/openFooter.mp3")
+    },13800)
+  }, [])
+
   return (
     <div id="footer">
       <svg  viewBox="0 0 1442 401" fill="none" {...props}>
@@ -15,6 +24,8 @@ export default function FolioFooter(props) {
           stroke="#175979"
         />
       </svg>
+      <div class="bottomFooter"></div>
+      <audio src={sound} autoPlay />
     </div>
   );
 }
