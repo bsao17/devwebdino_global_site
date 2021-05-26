@@ -10,13 +10,13 @@
     opacity: 0;
     color: #B3C100;
     font-size: 2vw;
-    animation: jingle 1s linear 8s forwards, opacityNull 5s linear 10s forwards;
+    // animation: opacityNull 3s linear 3s forwards;
   }
   #dwdLogo {
     position: absolute;
     width: 22vw;
     opacity: 0;
-    animation: opacityFull 3s ease-in-out 14s forwards;
+    animation: opacityFull 3s ease-in-out 5s forwards;
   }
   #imac {
     position: absolute;
@@ -24,21 +24,21 @@
     opacity: 0;
     border-radius: 0 0 30% 0;
     z-index: 999;
-    animation: imac 3s ease-out 5s forwards;
+    animation: imac 3s ease-out 2s forwards;
   }
   #iphone {
     position: absolute;
     width: 10vw;
     opacity: 0;
     border-radius: 50%;
-    animation: iphone 3s ease-out 4s forwards;
+    animation: iphone 3s ease-out 1s forwards;
   }
   #ipad {
     position: absolute;
     width: 10vw;
     opacity: 0;
     border-radius: 50%;
-    animation: ipad 2s ease-in-out 4.5s forwards;
+    animation: ipad 2s ease-in-out 1.5s forwards;
   }
   @keyframes iphone {
     0% {

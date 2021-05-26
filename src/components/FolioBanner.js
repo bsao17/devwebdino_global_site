@@ -13,11 +13,11 @@ export default function FolioBanner() {
       <img id="iphone" src={img.iphone} alt="Iphone"/>
       <img id="ipad" src={img.ipad} alt="Ipad"/>
       <img id="dwdLogo" src={img.dwdLogo} alt="Logo devwebdino.com"/>
-      <div id="jingle">
+      {/* <div id="jingle">
         <div>Améliorer son Business ...</div>
         <div>Être en phase avec son époque ...</div>
         <div>Booster son activité ...</div>
-      </div>
+      </div> */}
       <svg
         viewBox="0 0 1442 401"
         fill="none"

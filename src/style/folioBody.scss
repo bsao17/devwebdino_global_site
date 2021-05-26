@@ -8,7 +8,7 @@
   font-size: 1vw;
   overflow: hidden;
   z-index: 999;
-  animation: openBody 7s ease-out 14s forwards;
+  animation: openBody 7s ease-out 7s forwards;
 }
 .agency {
   width: 350px;
@@ -23,8 +23,8 @@
 .bikeRenting {
   width: 350px;
   border-radius: 20px;
-  padding: 15px;
   margin: 3vw;
+  padding: 15px;
   border: #b3ddf1 solid 2px;
   background-color: #175979;
   color: #b3ddf1;
@@ -69,6 +69,6 @@ img {
   to{
     opacity: 1;
     height: 100vw;
-    margin-top: 5vw;
+    // margin-top: 5vw;
   }
 }

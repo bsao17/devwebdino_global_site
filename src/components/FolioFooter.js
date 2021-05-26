@@ -7,7 +7,7 @@ export default function FolioFooter(props) {
   useEffect(()=>{
     setTimeout(()=>{
       setSound("assets/sounds/openFooter.mp3")
-    },13800)
+    },8000)
   }, [])
 
   return (

@@ -1,14 +1,13 @@
 import React, {useEffect} from "react";
-import Tilt from "react-tilt";
 
 export default function FolioBody() {
 
     const scrollingBody = () => {
         const scroll = () => {
-            const wrapper = document.getElementById('wrapper');
+            const wrapper = document.querySelector('.container');
             wrapper.scrollIntoView()
         }
-        setTimeout(scroll, 14000)
+        setTimeout(scroll, 11000)
     }
     useEffect(()=>{scrollingBody()}, [])
     return (
@@ -31,7 +30,7 @@ export default function FolioBody() {
                         de bureau au téléphone portable passant par la TV du salon, c'est ce qu'on le " design"
                     </div>
 
-                <Tilt options={{max: 25, scale: 1.5}}>
+                
                     <div class="bikeRenting">
                         <img
                             src="https://res.cloudinary.com/bsao17/image/upload/v1621271227/devwebdino/bikeRenting_e5x9n3.jpg"
@@ -44,9 +43,9 @@ export default function FolioBody() {
                         quisquam fugit porro eveniet! Nostrum sint harum eos cumque corporis
                         maiores beatae quae dolore. Placeat.
                     </div>
-                </Tilt>
+               
 
-                <Tilt options={{max: 25, scale: 1.1}}>
+                
                     <div class="forteroche">
                         <img
                             src="https://res.cloudinary.com/bsao17/image/upload/v1621271224/devwebdino/forteroche_kgo8ux.jpg"
@@ -59,9 +58,9 @@ export default function FolioBody() {
                         quisquam fugit porro eveniet! Nostrum sint harum eos cumque corporis
                         maiores beatae quae dolore. Placeat.
                     </div>
-                </Tilt>
+                
 
-                <Tilt options={{max: 25, scale: 1.1}}>
+                
                     <div class="ireki">
                         <img
                             src="https://res.cloudinary.com/bsao17/image/upload/v1621271223/devwebdino/ireki_tssz7m.jpg"
@@ -74,9 +73,9 @@ export default function FolioBody() {
                         quisquam fugit porro eveniet! Nostrum sint harum eos cumque corporis
                         maiores beatae quae dolore. Placeat.
                     </div>
-                </Tilt>
+                
 
-                <Tilt options={{max: 25, scale: 1.1}}>
+                
                     <div class="jmpm">
                         <img
                             src="https://res.cloudinary.com/bsao17/image/upload/v1621271218/devwebdino/jmpm_egbkof.jpg"
@@ -89,7 +88,7 @@ export default function FolioBody() {
                         quisquam fugit porro eveniet! Nostrum sint harum eos cumque corporis
                         maiores beatae quae dolore. Placeat.
                     </div>
-                </Tilt>
+                
             </div>
         </>
     );
