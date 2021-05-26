@@ -14,7 +14,6 @@ export default function FolioBody() {
     return (
         <>
             <div className="wrapper" id="wrapper">
-                <Tilt options={{max: 25, scale: 1.1}}>
                     <div class="agency">
                         <img
                             src="https://res.cloudinary.com/bsao17/image/upload/v1621271218/devwebdino/agency_mo6swl.jpg"
@@ -31,9 +30,8 @@ export default function FolioBody() {
                         l'ordinateur
                         de bureau au téléphone portable passant par la TV du salon, c'est ce qu'on le " design"
                     </div>
-                </Tilt>
 
-                <Tilt options={{max: 25, scale: 1.1}}>
+                <Tilt options={{max: 25, scale: 1.5}}>
                     <div class="bikeRenting">
                         <img
                             src="https://res.cloudinary.com/bsao17/image/upload/v1621271227/devwebdino/bikeRenting_e5x9n3.jpg"

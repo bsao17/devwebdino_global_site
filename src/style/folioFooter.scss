@@ -1,6 +1,10 @@
-.footer{
+#footer svg{
     margin-top: 5vw;
     transform: rotate(180deg);
-    position: relative;
+    position: absolute;
+    background-color: transparent;
+    top: auto;
+    left: 0;
+    overflow: hidden;
 }
 
